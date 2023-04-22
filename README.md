@@ -2,6 +2,14 @@
 
 8-ball web page: [Magic 8 Ball](https://cse110-sp23-group26.github.io/magicEightBall/8ball.html)
 
+This page is for the main versions and features of CSE110 SP2023 Group 26 Magic Eight Ball Project. Please read the version informations below and try to:
+
+- Make a new branch, try to complete some new features and push. For example, adding special effects to the background, improving some existing bugs, and so on. You can check the latest version information in READ.md. If you commit new changes, be sure to fully describe what you did in your commit message.
+
+- Add your own ideas, some opinions, such as what new features to add, where the webpage does not look good, and so on. Please put your notes in the magicEightBall/notes/ folder and include your name.
+
+- Test our webpage and post an issue for the bugs found, or put the bug information found in magicEightBall/debug/
+
 # Version One
 
 ### Web page code
