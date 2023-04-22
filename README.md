@@ -1,6 +1,6 @@
 # CSE110-8BALL
 
-8-ball web page: https://ruili4ucsd.github.io/CSE110-8BALL/8ball.html
+8-ball web page: [Magic 8 Ball](https://cse110-sp23-group26.github.io/magicEightBall/8ball.html)
 
 # Version One
 
