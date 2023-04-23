@@ -18,6 +18,15 @@
 
 ### Tools: Zoom
 
+### Attendence List:
+
+- Nick Petrone
+- Quanling Zhao
+- Rui Li
+- Jianming Geng
+- Yuning Wen
+- Sindhu Kothe
+
 ***
 
 ## Major Topic:
@@ -42,6 +51,7 @@
 
 **Interface Design Documents (C4 model draft)**
 
+![8ballProcModel](https://cse110-sp23-group26.github.io/magicEightBall/img/8ballProcModel.png)
 
 ### What input do we accept
 
@@ -52,12 +62,22 @@
 
 **Who are our potential users?**
 
+- Professor
+- Tutors
+- Students
+
 **What will the user put in their input?**
 
+- String (We accept this)
+- Voice (We are not able to deal with this)
+- Imagie (We are not able to deal with this)
+- Video (We are not able to deal with this)
 
 ### What output do we accept
 
 **What output should we have?**
+
+- String
 
 ***
 
@@ -65,9 +85,20 @@
 
 ### page style
 
+Mainly Animal style. Inherited from our group branding. Can use Nintendo game characters as elements.
+
 ### Rough sketch of page style
 
+![Rough sketch of page style](https://cse110-sp23-group26.github.io/magicEightBall/img/8ballWebPageSketch.png)
+
 ### The special effects want to add
+
+- Fog (smoke) next to the Magic Eight Ball
+- special effects of rain in the background
+- Bokeh effects
+- The special effect of the recovery of the magic eight ball
+- Animal elements on the interface (preferably dynamic)
+- Interactive group introduction interface
 
 ### Interface Design Documents
 
@@ -83,7 +114,12 @@ In future projects, those documents should be in /specs/interface/rough, /specs/
 
 **How to test the code**
 
+- Check all elements on the page for errors.
+- Using various inputs, check that the web page gives reasonable output.
+
 **What test input should we habe**
+
+- Depends on our implemention of webpage.
 
 ***
 
@@ -126,6 +162,7 @@ Eric Silberman
 
 Rui Li
 
+- 1， 2 （partial, cannot handle all the effects）
 
 Shishir lyer
 
