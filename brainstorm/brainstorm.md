@@ -26,7 +26,7 @@
 - Jianming Geng
 - Yuning Wen
 - Sindhu Kothe
-
+- Eric Silberman
 ***
 
 ## Major Topic:
@@ -158,7 +158,7 @@ Quanling Zhao
 - 3
 
 Eric Silberman
-
+- 4(help with theme as well), 7(help with slides organzation)
 
 Rui Li
 
