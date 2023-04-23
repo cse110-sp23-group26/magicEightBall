@@ -167,7 +167,7 @@ Rui Li
 
 Shishir lyer
 
- - 9
+ - 6, 9
 
 Sindhu Kothe
 
