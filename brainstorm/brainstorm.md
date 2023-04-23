@@ -150,6 +150,7 @@ Please write task number under your name, pick tasks that hasn't been picked by 
 
 Nick Petrone
 
+- 5
 
 Jianming Geng
 
