@@ -93,6 +93,12 @@ In future projects, those documents should be in /specs/interface/rough, /specs/
 
 ## Task Assign
 
+### What tasks we have now:
+
+
+
+### Task Assign
+
 Nick Petrone
 
 
