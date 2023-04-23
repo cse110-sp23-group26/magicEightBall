@@ -18,10 +18,6 @@
 
 ### Tools: Zoom
 
-### Attendence List:
-
-
-
 ***
 
 ## Major Topic:
@@ -95,9 +91,26 @@ In future projects, those documents should be in /specs/interface/rough, /specs/
 
 ### What tasks we have now:
 
+1. Design a general layout of what page should look like.
+2. Add some special effects on the page, can be anything, br creative.
+3. Add team info in an interactive way (click a botton on the page and it will display member names and link to our group page).
+4. Add branding elements to the page (animal crossing related, static images or gifs).
+5. Make repose more intellgence.
+6. Test different inputs and debug. For tester, create a md file to record all the inputs you tested and report any issues you find the the md file
+7. Make slides document our team's process of making this app and how AI technologies assisst us, what it can or can't do.
+8. Record vodeo for the presentation using slides.
+9. Code reviewer, manage this repo and pull requests
+
+
+Each team member should create their own branch and work in there, after you added features please create a pull request to merge into master branch.
 
 
 ### Task Assign
+Please write task number under your name, pick tasks that hasn't been picked by others, you can pick multiple tasks if that make sense.
+
+
+
+------
 
 Nick Petrone
 
