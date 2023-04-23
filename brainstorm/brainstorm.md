@@ -27,6 +27,7 @@
 - Yuning Wen
 - Sindhu Kothe
 - Eric Silberman
+- Shishir Iyer (attend second day brainstorm)
 ***
 
 ## Major Topic:
