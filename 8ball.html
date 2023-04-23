@@ -7,7 +7,43 @@
     <link href="8ball_styles.css" rel="stylesheet">
     <link href="rain_8ball.css" rel="stylesheet">
 
-</head>
+    <style>
+        .img {
+        white-space: normal;
+        width:100%;
+        height: auto;
+        top:0;
+        left:0;
+        position: relative;
+        z-index: 1;
+        }
+
+        .anybutton {
+        top:10%;
+        left:4%;
+        width:150px;
+        height:30px;
+        position: absolute;
+        z-index: 2;
+        background: orange;
+        }
+
+        textarea {
+        background: transparent;
+        color: #fff;
+        resize: none;
+        border: 0 none;
+        width: 100%;
+        font-size: 5em;
+        outline: none;
+        height: 100%;
+        position: absolute;
+        }
+
+    </style>
+
+
+
 <body class="rain-background">
     <div class="background">
         <div class="container">
@@ -23,6 +59,26 @@
 
     <script src="8ball_script.js"></script>
     <script src="rain_8ball.js"></script>
+
+    <input type="button" class="anybutton" id="myab" value="Visit our github page!" onclick="window.location.href='https://github.com/cse110-sp23-group26/BugCatchers';"/>
+
+
+    <textarea readonly background="transparent" name="members" rows="20" cols="50" style="font-size: 12pt;top:15%;left:0%;white-space: pre-wrap;">
+        BugCatchers !
+
+        Jianming Geng
+        Nick Petrone
+        Rui Li
+        Shishir Iyer
+        Eric Silberman
+        Ryan McCrystal
+        Sindhu Kothe
+        Yuning Wen
+        Quanling Zhao
+    </textarea>
+
+
+
 </body>
 </html>
 
