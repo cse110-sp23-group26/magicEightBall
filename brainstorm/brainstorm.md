@@ -162,7 +162,7 @@ Eric Silberman
 
 Rui Li
 
-- 1， 2 
+- 1, 2, 7 (if none take it)
 
 Shishir lyer
 
