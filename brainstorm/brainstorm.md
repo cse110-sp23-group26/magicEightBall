@@ -135,7 +135,7 @@ In future projects, those documents should be in /specs/interface/rough, /specs/
 5. Make repose more intellgence.
 6. Test different inputs and debug. For tester, create a md file to record all the inputs you tested and report any issues you find the the md file
 7. Make slides document our team's process of making this app and how AI technologies assisst us, what it can or can't do.
-8. Record vodeo for the presentation using slides.
+8. Record video for the presentation using slides.
 9. Code reviewer, manage this repo and pull requests
 
 
@@ -175,6 +175,8 @@ Sindhu Kothe
 
 
 Yuning Wen
+
+- 7, 8
 
 
 
