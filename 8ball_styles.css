@@ -187,3 +187,43 @@ textarea.team_name {
     color: white;
     opacity: 1;
 }
+
+.be_deer {
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    width: 80px;
+    height: 80px;
+}
+
+.be_cow {
+    position: absolute;
+    bottom: 20%;
+    left: 19%;
+    width: 85px;
+    height: 85px;
+}
+
+.be_wolf {
+    position: absolute;
+    bottom: 4%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+}
+
+.be_dog {
+    position: absolute;
+    bottom: 9%;
+    left: 65%;
+    width: 90px;
+    height: 90px;
+}
+
+.be_pair {
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+    width: 150px;
+    height: 120px;
+}
