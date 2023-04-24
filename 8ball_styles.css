@@ -162,3 +162,28 @@ button:focus {
     outline: none;
     animation: pulse 0.5s infinite;
 }
+
+div.team_show {
+    font-size: 10px;
+    background-color: rgb(235, 198, 131);
+    position: fixed;
+    top: 16.5%;
+    left: 8%;
+    padding: 5px;
+    border: 2px solid gray;
+    margin: 0;
+}
+
+textarea.team_name {
+    opacity: 0;
+    font-size: 9pt;
+    top:23%;
+    left:1%;
+    white-space: pre-wrap;
+}
+
+.team_show:hover + .team_name {
+    display: block;
+    color: white;
+    opacity: 1;
+}
