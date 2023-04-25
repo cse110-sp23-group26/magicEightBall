@@ -43,7 +43,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    background-image: url("img/background/background_1.jpg");
+    background-image: url("img/background/background_3.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -87,7 +87,8 @@ body {
     text-align: center;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -170px;
 }
 
 .magic-8-ball {
@@ -95,8 +96,8 @@ body {
 }
 
 .magic-8-ball-img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -156,6 +157,15 @@ button:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     font-family: 'Comic Sans MS', cursive, sans-serif;
     transition: font-size 1s, color 1s;
+    height: 200px;
+    width: 540px;
+    background-image: url("img/8ball/Pretty\ Crossing.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:focus {
