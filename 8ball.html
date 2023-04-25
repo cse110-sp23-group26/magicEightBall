@@ -6,44 +6,7 @@
     <title>Magic Eight Ball</title>
     <link href="8ball_styles.css" rel="stylesheet">
     <link href="rain_8ball.css" rel="stylesheet">
-
-    <style>
-        .img {
-        white-space: normal;
-        width:100%;
-        height: auto;
-        top:0;
-        left:0;
-        position: relative;
-        z-index: 1;
-        }
-
-        .anybutton {
-        top:10%;
-        left:4%;
-        width:150px;
-        height:30px;
-        position: absolute;
-        z-index: 2;
-        background: orange;
-        }
-
-        textarea {
-        background: transparent;
-        color: #fff;
-        resize: none;
-        border: 0 none;
-        width: 100%;
-        font-size: 5em;
-        outline: none;
-        height: 100%;
-        position: absolute;
-        }
-
-    </style>
-
-
-
+</head>
 <body class="rain-background">
     <div class="background">
         <div class="container">
@@ -60,25 +23,28 @@
     <script src="8ball_script.js"></script>
     <script src="rain_8ball.js"></script>
 
-    <input type="button" class="anybutton" id="myab" value="Visit our github page!" onclick="window.location.href='https://github.com/cse110-sp23-group26/BugCatchers';"/>
+    <!-- <input type="button" class="anybutton" id="myab" value="Visit our github page!" onclick="window.location.href='https://github.com/cse110-sp23-group26/BugCatchers';"/> -->
 
-    <div class="team_show">
-        Team Info
+    <input type="button" class="anybutton" id="userdoc" value="View User Doc!" onclick="window.location.href='document/userdoc.md';"/>
+    <input type="button" class="anybutton" id="myab" value="Visit our git repo!" onclick="window.location.href='https://github.com/cse110-sp23-group26/BugCatchers';"/>
+    <input type="button" class="anybutton team_show" id="teamInfo" value="Team Info" onmouseenter="showTeamInfo()" onmouseleave="hideTeamInfo()"/>
+
+    
+    <div class="team_name">
+        <pre>
+        <strong>BugCatchers !</strong>
+        
+        - Jianming Geng
+        - Nick Petrone
+        - Rui Li
+        - Shishir Iyer
+        - Eric Silberman
+        - Ryan McCrystal
+        - Sindhu Kothe
+        - Yuning Wen
+        - Quanling Zhao
+        </pre>
     </div>
-
-    <textarea class="team_name" readonly background="transparent" rows="20" cols="50">
-        BugCatchers !
-
-        Jianming Geng
-        Nick Petrone
-        Rui Li
-        Shishir Iyer
-        Eric Silberman
-        Ryan McCrystal
-        Sindhu Kothe
-        Yuning Wen
-        Quanling Zhao
-    </textarea>
 
     <img class="be_deer" src="img/branding_elements/deer.gif" alt="Deer">
     <img class="be_cow" src="img/branding_elements/cow.gif" alt="Cow">

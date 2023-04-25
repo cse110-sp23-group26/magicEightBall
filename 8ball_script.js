@@ -55,6 +55,16 @@ document.getElementById('question').addEventListener('blur', () => {
     questionElement.style.boxShadow = '0px 5px 10px rgba(0, 0, 0, 0.2)';
 });
 
+function showTeamInfo() {
+    const teamName = document.querySelector('.team_name');
+    teamName.style.display = 'block';
+}
+
+function hideTeamInfo() {
+    const teamName = document.querySelector('.team_name');
+    teamName.style.display = 'none';
+}
+
 
 // function askEightBall() {
 //     const answers = [
