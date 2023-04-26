@@ -8,6 +8,15 @@ function hideButtonEffect() {
     buttonEffect.style.opacity = '0';
 }
 
+function typeAnswer(answerElem, answerText) {
+	if (answerText.length <= 0) {
+		return;
+	}
+	let char = answerText.split("");
+	answerElem.textContent = answerElem.textContent + char.splice(0,1)[0];
+	setTimeout(typeAnswer, 100, answerElem, char.join(""));
+}
+
 function askEightBall() {
     const question = document.getElementById('question').value;
     const answerElement = document.getElementById('answer');
@@ -35,7 +44,10 @@ function askEightBall() {
     ];
 
     const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
-    answerElement.textContent = randomAnswer;
+    
+	answerElement.textContent="";
+	typeAnswer(answerElement, randomAnswer);	
+	answerElement.style.visibility = "visible";
 
     answerElement.style.fontSize = '16px';
     answerElement.style.color = '#e74c3c';
@@ -64,41 +76,3 @@ function hideTeamInfo() {
     const teamName = document.querySelector('.team_name');
     teamName.style.display = 'none';
 }
-
-
-// function askEightBall() {
-//     const answers = [
-//         'It is certain.',
-//         'It is decidedly so.',
-//         'Without a doubt.',
-//         'Yes, definitely.',
-//         'You may rely on it.',
-//         'As I see it, yes.',
-//         'Most likely.',
-//         'Outlook good.',
-//         'Yes.',
-//         'Signs point to yes.',
-//         'Reply hazy, try again.',
-//         'Ask again later.',
-//         'Better not tell you now.',
-//         'Cannot predict now.',
-//         'Concentrate and ask again.',
-//         'Don\'t count on it.',
-//         'My reply is no.',
-//         'My sources say no.',
-//         'Outlook not so good.',
-//         'Very doubtful.'
-//     ];
-
-//     const question = document.getElementById('question').value.trim();
-//     const answer = document.getElementById('answer');
-
-//     if (question.length === 0) {
-//         answer.textContent = 'Please ask a question.';
-//     } else if (question.slice(-1) !== '?') {
-//         answer.textContent = 'Please ask a question ending with a question mark.';
-//     } else {
-//         const randomIndex = Math.floor(Math.random() * answers.length);
-//         answer.textContent = answers[randomIndex];
-//     }
-// }
